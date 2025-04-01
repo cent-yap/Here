@@ -280,6 +280,39 @@ h3{
     margin: 0; 
 }
 
+.box .rige:nth-of-type(11) .here{
+  display: grid;
+  position: relative;
+  place-items: flex-end center;
+  padding: 1.25rem;
+  background: linear-gradient(to bottom, #0000, #0009),
+  url(https://images.unsplash.com/photo-1551717743-49959800b1f6?q=80&w=1467&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+  center / cover no-repeat;
+  block-size: 500px;
+  inline-size: 100%;
+}
+
+.box .rige:nth-of-type(12) .here{
+  display: grid;
+  position: relative;
+  place-items: flex-end center;
+  padding: 1.25rem;
+  background: linear-gradient(to bottom, #0000, #0009),
+  url(https://images.unsplash.com/photo-1601758063541-d2f50b4aafb2?q=80&w=1405&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+  center / cover no-repeat;
+  block-size: 500px;
+  inline-size: 100%;
+}
+
+.box .rige, .box .rige:nth-of-type(12) a{
+  display: grid;
+  position: relative;
+  place-items: center;
+  block-size: auto;
+  inline-size: 100%;
+}
+
+
  @media (max-width: 700px) {
 
     .sec .container{
